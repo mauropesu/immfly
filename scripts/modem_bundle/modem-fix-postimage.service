@@ -1,0 +1,14 @@
+[Unit]
+Description=Post-restore modem check (runs once after Clonezilla image restore)
+After=network.target ModemManager.service
+Wants=ModemManager.service
+
+[Service]
+Type=oneshot
+ExecStart=/scripts/post_restore_modem_check.sh
+RemainAfterExit=yes
+# Don't block boot indefinitely if something hangs
+TimeoutStartSec=300
+
+[Install]
+WantedBy=multi-user.target
