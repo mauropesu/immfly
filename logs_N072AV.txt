@@ -1,0 +1,104 @@
+Attaching to ify_flight-controller_1
+[36mflight-controller_1         |[0m [90m2026-09-15T16:33:28.869582Z[0m [36m▋[0m [90m               src/runtime.rs:91[0m [36m INFO[0m Delay execution to wait for containers to start: 15s
+[36mflight-controller_1         |[0m [90m2026-09-15T16:33:43.871426Z[0m [36m▋[0m [90m              src/runtime.rs:126[0m [36m INFO[0m Parsing offline tasks
+[36mflight-controller_1         |[0m [90m2026-09-15T16:33:43.907456Z[0m [36m▋[0m [90m                src/parser.rs:56[0m [36m INFO[0m Found 0 offline tasks for djangoq
+[36mflight-controller_1         |[0m [90m2026-09-15T16:33:43.910450Z[0m [36m▋[0m [90m                src/parser.rs:56[0m [36m INFO[0m Found 0 offline tasks for heartbeat
+[36mflight-controller_1         |[0m [90m2026-09-15T16:33:43.912001Z[0m [36m▋[0m [90m                src/parser.rs:56[0m [36m INFO[0m Found 1 offline tasks for aircraft
+[36mflight-controller_1         |[0m [90m2026-09-15T16:33:43.913073Z[0m [36m▋[0m [90m                src/parser.rs:56[0m [36m INFO[0m Found 0 offline tasks for flight-info
+[36mflight-controller_1         |[0m [90m2026-09-15T16:33:43.915674Z[0m [36m▋[0m [90m                src/parser.rs:56[0m [36m INFO[0m Found 0 offline tasks for flight-info-api-listener
+[36mflight-controller_1         |[0m [90m2026-09-15T16:33:43.919834Z[0m [36m▋[0m [90m                src/parser.rs:56[0m [36m INFO[0m Found 0 offline tasks for flight-info-listener
+[36mflight-controller_1         |[0m [90m2026-09-15T16:33:43.920832Z[0m [36m▋[0m [90m                src/parser.rs:56[0m [36m INFO[0m Found 0 offline tasks for dnsmasq
+[36mflight-controller_1         |[0m [90m2026-09-15T16:33:43.927316Z[0m [36m▋[0m [90m                src/parser.rs:56[0m [36m INFO[0m Found 0 offline tasks for flight-controller
+[36mflight-controller_1         |[0m [90m2026-09-15T16:33:43.931004Z[0m [36m▋[0m [90m                src/parser.rs:56[0m [36m INFO[0m Found 0 offline tasks for drm-service
+[36mflight-controller_1         |[0m [90m2026-09-15T16:33:43.932932Z[0m [36m▋[0m [90m                src/parser.rs:56[0m [36m INFO[0m Found 0 offline tasks for flight-recorder
+[36mflight-controller_1         |[0m [90m2026-09-15T16:33:43.936409Z[0m [36m▋[0m [90m                src/parser.rs:56[0m [36m INFO[0m Found 0 offline tasks for flight-info-adapter
+[36mflight-controller_1         |[0m [90m2026-09-15T16:33:43.937707Z[0m [36m▋[0m [90m                src/parser.rs:56[0m [36m INFO[0m Found 0 offline tasks for frontend
+[36mflight-controller_1         |[0m [90m2026-09-15T16:33:43.940331Z[0m [36m▋[0m [90m                src/parser.rs:56[0m [36m INFO[0m Found 0 offline tasks for games
+[36mflight-controller_1         |[0m [90m2026-09-15T16:33:43.942538Z[0m [36m▋[0m [90m         src/runner/docker.rs:41[0m [36m INFO[0m Run task 'fct-aircraft-create-sync-logs-163343' from container '/ify_aircraft_1'
+[36mflight-controller_1         |[0m [90m2026-09-15T16:33:44.398127Z[0m [36m▋[0m [90m       src/clients/docker.rs:237[0m [36m INFO[0m Streaming logs for container 'fct-aircraft-create-sync-logs-163343':
+[36mflight-controller_1         |[0m [90m2026-09-15T16:33:44.399919Z[0m [36m▋[0m [90m       src/clients/docker.rs:240[0m [36m INFO[0m Waiting for database...
+[36mflight-controller_1         |[0m [90m2026-09-15T16:33:45.398969Z[0m [36m▋[0m [90m       src/clients/docker.rs:240[0m [36m INFO[0m Waiting for redis...
+[36mflight-controller_1         |[0m [90m2026-09-15T16:33:46.406307Z[0m [36m▋[0m [90m       src/clients/docker.rs:240[0m [36m INFO[0m Waiting for status 200 on endpoint 'http://aircraft:8000/status'
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:02.197853Z[0m [36m▋[0m [90m       src/clients/docker.rs:240[0m [36m INFO[0m {"status":"up"}./manage.py content_sync_log
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:07.141139Z[0m [36m▋[0m [90m       src/clients/docker.rs:240[0m [36m INFO[0m [INFO] 2026-09-15 16:34:07 - axes.apps: AXES: BEGIN LOG
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:07.143290Z[0m [36m▋[0m [90m       src/clients/docker.rs:240[0m [36m INFO[0m [INFO] 2026-09-15 16:34:07 - axes.apps: AXES: Using django-axes version 5.10.0
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:07.143340Z[0m [36m▋[0m [90m       src/clients/docker.rs:240[0m [36m INFO[0m [INFO] 2026-09-15 16:34:07 - axes.apps: AXES: blocking by combination of username and IP.
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:08.981453Z[0m [36m▋[0m [90m              src/runtime.rs:108[0m [36m INFO[0m Connectivity changed: online
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:15.234728Z[0m [36m▋[0m [90m        src/runner/docker.rs:131[0m [36m INFO[0m Task 'fct-aircraft-create-sync-logs-163343' deleted
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:15.235946Z[0m [36m▋[0m [90m              src/runtime.rs:126[0m [36m INFO[0m Parsing online tasks
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:15.253451Z[0m [36m▋[0m [90m                src/parser.rs:56[0m [36m INFO[0m Found 0 online tasks for djangoq
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:15.255307Z[0m [36m▋[0m [90m                src/parser.rs:56[0m [36m INFO[0m Found 0 online tasks for heartbeat
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:15.257157Z[0m [36m▋[0m [90m                src/parser.rs:56[0m [36m INFO[0m Found 8 online tasks for aircraft
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:15.258411Z[0m [36m▋[0m [90m                src/parser.rs:56[0m [36m INFO[0m Found 0 online tasks for flight-info
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:15.259360Z[0m [36m▋[0m [90m                src/parser.rs:56[0m [36m INFO[0m Found 0 online tasks for flight-info-api-listener
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:15.260652Z[0m [36m▋[0m [90m                src/parser.rs:56[0m [36m INFO[0m Found 0 online tasks for flight-info-listener
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:15.261613Z[0m [36m▋[0m [90m                src/parser.rs:56[0m [36m INFO[0m Found 0 online tasks for dnsmasq
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:15.262729Z[0m [36m▋[0m [90m                src/parser.rs:56[0m [36m INFO[0m Found 1 online tasks for flight-controller
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:15.266336Z[0m [36m▋[0m [90m                src/parser.rs:56[0m [36m INFO[0m Found 2 online tasks for drm-service
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:15.268169Z[0m [36m▋[0m [90m                src/parser.rs:56[0m [36m INFO[0m Found 1 online tasks for flight-recorder
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:15.271521Z[0m [36m▋[0m [90m                src/parser.rs:56[0m [36m INFO[0m Found 0 online tasks for flight-info-adapter
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:15.272608Z[0m [36m▋[0m [90m                src/parser.rs:56[0m [36m INFO[0m Found 0 online tasks for frontend
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:15.275586Z[0m [36m▋[0m [90m                src/parser.rs:56[0m [36m INFO[0m Found 1 online tasks for games
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:15.276606Z[0m [36m▋[0m [90m         src/runner/docker.rs:41[0m [36m INFO[0m Run task 'fct-flight-controller-export-metrics-163415' from container '/ify_flight-controller_1'
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:15.726820Z[0m [36m▋[0m [90m       src/clients/docker.rs:237[0m [36m INFO[0m Streaming logs for container 'fct-flight-controller-export-metrics-163415':
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:15.748045Z[0m [36m▋[0m [90m       src/clients/docker.rs:240[0m [36m INFO[0m [90m2026-09-15T16:34:15.746718Z[0m [36m▋[0m [90m           src/cli/metrics.rs:26[0m [36m INFO[0m Export metrics to S3
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:16.964431Z[0m [36m▋[0m [90m       src/clients/docker.rs:240[0m [36m INFO[0m [90m2026-09-15T16:34:16.962644Z[0m [36m▋[0m [90m              src/metrics.rs:173[0m [36m INFO[0m Metrics exported, cleaning /srv/data/export
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:16.964530Z[0m [36m▋[0m [90m       src/clients/docker.rs:240[0m [36m INFO[0m [90m2026-09-15T16:34:16.962927Z[0m [36m▋[0m [90m           src/cli/metrics.rs:31[0m [36m INFO[0m Export process finished
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:17.232217Z[0m [36m▋[0m [90m       src/clients/docker.rs:247[0m [36m INFO[0m Fetch logs for container 'fct-flight-controller-export-metrics-163415':
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:17.262213Z[0m [36m▋[0m [90m        src/runner/docker.rs:131[0m [36m INFO[0m Task 'fct-flight-controller-export-metrics-163415' deleted
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:17.262271Z[0m [36m▋[0m [90m       src/metrics/tracker.rs:44[0m [36m INFO[0m Task 'export-metrics' took 1.985676412s: succeded
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:17.262649Z[0m [36m▋[0m [90m         src/runner/docker.rs:41[0m [36m INFO[0m Run task 'fct-aircraft-initialize-flight-163417' from container '/ify_aircraft_1'
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:17.732591Z[0m [36m▋[0m [90m       src/clients/docker.rs:237[0m [36m INFO[0m Streaming logs for container 'fct-aircraft-initialize-flight-163417':
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:17.734533Z[0m [36m▋[0m [90m       src/clients/docker.rs:240[0m [36m INFO[0m Waiting for database...
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:18.733188Z[0m [36m▋[0m [90m       src/clients/docker.rs:240[0m [36m INFO[0m Waiting for redis...
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:19.742662Z[0m [36m▋[0m [90m       src/clients/docker.rs:240[0m [36m INFO[0m Waiting for status 200 on endpoint 'http://aircraft:8000/status'
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:19.842731Z[0m [36m▋[0m [90m       src/clients/docker.rs:240[0m [36m INFO[0m {"status":"up"}./manage.py run_action --action InitializeFlight
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:24.597341Z[0m [36m▋[0m [90m       src/clients/docker.rs:240[0m [36m INFO[0m [INFO] 2026-09-15 16:34:24 - axes.apps: AXES: BEGIN LOG
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:24.598504Z[0m [36m▋[0m [90m       src/clients/docker.rs:240[0m [36m INFO[0m [INFO] 2026-09-15 16:34:24 - axes.apps: AXES: Using django-axes version 5.10.0
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:24.598809Z[0m [36m▋[0m [90m       src/clients/docker.rs:240[0m [36m INFO[0m [INFO] 2026-09-15 16:34:24 - axes.apps: AXES: blocking by combination of username and IP.
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:27.936938Z[0m [36m▋[0m [90m       src/clients/docker.rs:247[0m [36m INFO[0m Fetch logs for container 'fct-aircraft-initialize-flight-163417':
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:28.014809Z[0m [36m▋[0m [90m        src/runner/docker.rs:131[0m [36m INFO[0m Task 'fct-aircraft-initialize-flight-163417' deleted
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:28.014855Z[0m [36m▋[0m [90m       src/metrics/tracker.rs:44[0m [36m INFO[0m Task 'initialize-flight' took 10.752219594s: succeded
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:28.015792Z[0m [36m▋[0m [90m         src/runner/docker.rs:41[0m [36m INFO[0m Run task 'fct-flight-recorder-exportlogs-163428' from container '/ify_flight-recorder_1'
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:28.552984Z[0m [36m▋[0m [90m       src/clients/docker.rs:237[0m [36m INFO[0m Streaming logs for container 'fct-flight-recorder-exportlogs-163428':
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:28.554545Z[0m [36m▋[0m [90m       src/clients/docker.rs:240[0m [36m INFO[0m 2026/09/15 16:34:28 [INFO] Exporting logs to s3...
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:28.570032Z[0m [36m▋[0m [90m       src/clients/docker.rs:240[0m [36m INFO[0m 2026/09/15 16:34:28 [INFO] Uploading `/srv/data/logs/logs__N072AV__2026_09_15_16_34_28.557427.log.gz` to s3
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:29.823818Z[0m [36m▋[0m [90m       src/clients/docker.rs:240[0m [36m INFO[0m 2026/09/15 16:34:29 [INFO] Uploaded file to: `https://immfly-logs.s3.eu-west-1.amazonaws.com/logs/fleet/pending/logs__N072AV__2026_09_15_16_34_28.557427.log.gz`. Size: 14.0KiB. Took: 1.25361581s
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:30.062801Z[0m [36m▋[0m [90m       src/clients/docker.rs:247[0m [36m INFO[0m Fetch logs for container 'fct-flight-recorder-exportlogs-163428':
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:30.085127Z[0m [36m▋[0m [90m        src/runner/docker.rs:131[0m [36m INFO[0m Task 'fct-flight-recorder-exportlogs-163428' deleted
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:30.085168Z[0m [36m▋[0m [90m       src/metrics/tracker.rs:44[0m [36m INFO[0m Task 'ExportLogs' took 2.069412532s: succeded
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:30.085444Z[0m [36m▋[0m [90m         src/runner/docker.rs:41[0m [36m INFO[0m Run task 'fct-aircraft-airsync-sync-163430' from container '/ify_aircraft_1'
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:30.576780Z[0m [36m▋[0m [90m       src/clients/docker.rs:237[0m [36m INFO[0m Streaming logs for container 'fct-aircraft-airsync-sync-163430':
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:30.579096Z[0m [36m▋[0m [90m       src/clients/docker.rs:240[0m [36m INFO[0m Waiting for database...
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:31.577900Z[0m [36m▋[0m [90m       src/clients/docker.rs:240[0m [36m INFO[0m Waiting for redis...
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:32.583442Z[0m [36m▋[0m [90m       src/clients/docker.rs:240[0m [36m INFO[0m Waiting for status 200 on endpoint 'http://aircraft:8000/status'
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:32.667482Z[0m [36m▋[0m [90m       src/clients/docker.rs:240[0m [36m INFO[0m {"status":"up"}./manage.py run_action --action ExportAirsyncChanges
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:37.425893Z[0m [36m▋[0m [90m       src/clients/docker.rs:240[0m [36m INFO[0m [INFO] 2026-09-15 16:34:37 - axes.apps: AXES: BEGIN LOG
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:37.428514Z[0m [36m▋[0m [90m       src/clients/docker.rs:240[0m [36m INFO[0m [INFO] 2026-09-15 16:34:37 - axes.apps: AXES: Using django-axes version 5.10.0
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:37.428553Z[0m [36m▋[0m [90m       src/clients/docker.rs:240[0m [36m INFO[0m [INFO] 2026-09-15 16:34:37 - axes.apps: AXES: blocking by combination of username and IP.
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:42.799416Z[0m [36m▋[0m [90m       src/clients/docker.rs:240[0m [36m INFO[0m [INFO] 2026-09-15 16:34:42 - airsync.actions.exporting: No changes to be sent to the primary
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:42.810001Z[0m [36m▋[0m [90m       src/clients/docker.rs:240[0m [36m INFO[0m [INFO] 2026-09-15 16:34:42 - airsync.actions.exporting: Delta sync is disabled. Skipping sync...
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:42.810039Z[0m [36m▋[0m [90m       src/clients/docker.rs:240[0m [36m INFO[0m [INFO] 2026-09-15 16:34:42 - airsync.actions.exporting: Finished sync: [No changes exported to primary][No changes imported from primary]
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:43.988205Z[0m [36m▋[0m [90m       src/clients/docker.rs:247[0m [36m INFO[0m Fetch logs for container 'fct-aircraft-airsync-sync-163430':
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:44.078662Z[0m [36m▋[0m [90m        src/runner/docker.rs:131[0m [36m INFO[0m Task 'fct-aircraft-airsync-sync-163430' deleted
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:44.078716Z[0m [36m▋[0m [90m       src/metrics/tracker.rs:44[0m [36m INFO[0m Task 'airsync-sync' took 13.993282636s: succeded
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:44.080053Z[0m [36m▋[0m [90m         src/runner/docker.rs:41[0m [36m INFO[0m Run task 'fct-aircraft-export-sentry-errors-163444' from container '/ify_aircraft_1'
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:44.708816Z[0m [36m▋[0m [90m       src/clients/docker.rs:237[0m [36m INFO[0m Streaming logs for container 'fct-aircraft-export-sentry-errors-163444':
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:44.714324Z[0m [36m▋[0m [90m       src/clients/docker.rs:240[0m [36m INFO[0m Waiting for database...
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:45.705248Z[0m [36m▋[0m [90m       src/clients/docker.rs:240[0m [36m INFO[0m Waiting for redis...
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:46.713351Z[0m [36m▋[0m [90m       src/clients/docker.rs:240[0m [36m INFO[0m Waiting for status 200 on endpoint 'http://aircraft:8000/status'
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:46.808525Z[0m [36m▋[0m [90m       src/clients/docker.rs:240[0m [36m INFO[0m {"status":"up"}./manage.py run_action --action ExportSentry
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:51.649211Z[0m [36m▋[0m [90m       src/clients/docker.rs:240[0m [36m INFO[0m [INFO] 2026-09-15 16:34:51 - axes.apps: AXES: BEGIN LOG
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:51.652153Z[0m [36m▋[0m [90m       src/clients/docker.rs:240[0m [36m INFO[0m [INFO] 2026-09-15 16:34:51 - axes.apps: AXES: Using django-axes version 5.10.0
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:51.652193Z[0m [36m▋[0m [90m       src/clients/docker.rs:240[0m [36m INFO[0m [INFO] 2026-09-15 16:34:51 - axes.apps: AXES: blocking by combination of username and IP.
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:54.177126Z[0m [36m▋[0m [90m       src/clients/docker.rs:240[0m [36m INFO[0m [INFO] 2026-09-15 16:34:54 - immfly.services.contrib.sentry.exporters.s3.s3_exporter: No offline events directory found at /var/log/sentry.
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:55.093729Z[0m [36m▋[0m [90m       src/clients/docker.rs:247[0m [36m INFO[0m Fetch logs for container 'fct-aircraft-export-sentry-errors-163444':
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:55.168922Z[0m [36m▋[0m [90m        src/runner/docker.rs:131[0m [36m INFO[0m Task 'fct-aircraft-export-sentry-errors-163444' deleted
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:55.168968Z[0m [36m▋[0m [90m       src/metrics/tracker.rs:44[0m [36m INFO[0m Task 'export-sentry-errors' took 11.08892702s: succeded
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:55.170216Z[0m [36m▋[0m [90m         src/runner/docker.rs:41[0m [36m INFO[0m Run task 'fct-drm-service-drm-sync-widevine-cert-163455' from container '/ify_drm-service_1'
+[36mflight-controller_1         |[0m [90m2026-09-15T16:34:55.764088Z[0m [36m▋[0m [90m       src/clients/docker.rs:237[0m [36m INFO[0m Streaming logs for container 'fct-drm-service-drm-sync-widevine-cert-163455':
+[36mflight-controller_1         |[0m [90m2026-09-15T16:35:01.026636Z[0m [38;5;208m▋[0m [90m              src/runtime.rs:139[0m [38;5;208m WARN[0m Exit signal received, unfinished tasks are being stopped...
+[36mflight-controller_1         |[0m [90m2026-09-15T16:35:06.297448Z[0m [36m▋[0m [90m        src/runner/docker.rs:131[0m [36m INFO[0m Task 'fct-drm-service-drm-sync-widevine-cert-163455' deleted
+[36mflight-controller_1         |[0m [90m2026-09-15T16:35:06.297492Z[0m [36m▋[0m [90m              src/runtime.rs:141[0m [36m INFO[0m Bye!
+[36mify_flight-controller_1 exited with code 0
+[0m
