@@ -6,3 +6,4 @@ reportes_maquinas.xlsx
 sites/
 .~lock.*
 scripts/fix_modem.tar.gz
+.DS_Store
