@@ -1,0 +1,8 @@
+[Unit]
+Description=Check and enable Sierra Wireless modem via ModemManager
+After=ModemManager.service
+Requires=ModemManager.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/modem-enable-check.sh

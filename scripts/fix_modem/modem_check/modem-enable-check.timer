@@ -1,0 +1,10 @@
+[Unit]
+Description=Periodically check and enable Sierra Wireless modem
+
+[Timer]
+OnBootSec=60s
+OnUnitActiveSec=2min
+AccuracySec=10s
+
+[Install]
+WantedBy=timers.target
